@@ -3,189 +3,185 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pulsed — Política de Privacidade / Privacy Policy</title>
+<title>Spinly — Política de Privacidade / Privacy Policy</title>
 <style>
-  :root { color-scheme: light dark; }
-  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-         max-width: 760px; margin: 0 auto; padding: 24px; line-height: 1.6; }
-  h1 { font-size: 1.6rem; }
-  h2 { font-size: 1.25rem; margin-top: 2rem; border-bottom: 1px solid #8884; padding-bottom: 4px; }
-  h3 { font-size: 1.05rem; margin-top: 1.4rem; }
-  code { background: #8882; padding: 1px 5px; border-radius: 4px; }
-  .lang-switch { margin: 16px 0; }
-  .lang-switch a { margin-right: 12px; font-weight: 600; }
-  .muted { opacity: 0.7; font-size: 0.9rem; }
-  hr { border: none; border-top: 1px solid #8884; margin: 48px 0; }
+  :root {
+    --bg: #0D0D14;
+    --card: #14141F;
+    --border: #2A2A3A;
+    --text: #F4F4F6;
+    --muted: #9A9AAE;
+    --accent: #A78BFA;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 20px 72px;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 28px; line-height: 1.25; margin: 0 0 8px; letter-spacing: -0.02em; }
+  h2 { font-size: 19px; margin: 34px 0 10px; letter-spacing: -0.01em; }
+  .updated { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+  .lead {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin: 0 0 8px;
+  }
+  a { color: var(--accent); }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  strong { color: #FFF; }
+  hr { border: 0; border-top: 1px solid var(--border); margin: 56px 0 44px; }
+  footer { color: var(--muted); font-size: 14px; margin-top: 48px; border-top: 1px solid var(--border); padding-top: 20px; }
+  .lang-switch{margin:0 0 16px;text-align:right}
 </style>
 </head>
 <body>
+<main>
 
-<div class="lang-switch">
-  <a href="#pt">🇵🇹 Português</a>
-  <a href="#en">🇬🇧 English</a>
-</div>
+<p class="lang-switch"><a href="#en" lang="en">English</a></p>
+<h1 id="pt">Política de Privacidade — Spinly</h1>
+<p class="updated">Última atualização: 11 de setembro de 2026</p>
 
-<!-- ════════════════════════ PORTUGUÊS ════════════════════════ -->
-<section id="pt">
-<h1>Política de Privacidade — Pulsed</h1>
-<p class="muted">Última atualização: 28 de junho de 2026</p>
+<p>A Spinly é uma aplicação que ajuda a decidir, girando uma roda com as opções que tu escreves. Esta política explica que dados a aplicação usa, onde ficam e com quem são partilhados.</p>
 
-<p>Esta Política de Privacidade descreve como a aplicação <strong>Pulsed</strong>
-("a App", "nós") recolhe, utiliza e protege a informação dos utilizadores. Ao
-utilizar a App, concordas com as práticas aqui descritas.</p>
+<p class="lead">Em resumo, e em linguagem simples: <strong>a Spinly não tem contas, não tem servidor nosso, e não recolhe nem envia os teus dados para lado nenhum que seja nosso.</strong> Tudo o que escreves fica no teu telemóvel. As únicas coisas que saem do aparelho são as descritas abaixo, e todas vão diretamente para a Google.</p>
 
-<h2>1. Informação que recolhemos</h2>
+<h2>1. Quem é responsável</h2>
+<p>A Spinly é desenvolvida e mantida por um programador individual. Para qualquer questão sobre esta política ou sobre os teus dados, escreve para <a href="mailto:pulsedgamesstore@gmail.com">pulsedgamesstore@gmail.com</a>.</p>
 
-<h3>1.1 Conta e identificação</h3>
+<h2>2. O que fica guardado no teu telemóvel</h2>
+<p>Estes dados nunca saem do aparelho, exceto através da cópia de segurança do Android descrita na secção 3:</p>
 <ul>
-  <li><strong>Início de sessão como convidado:</strong> é criado um identificador
-      anónimo (Firebase Anonymous Authentication) para guardar o teu progresso.
-      Não recolhe dados pessoais.</li>
-  <li><strong>Início de sessão com Google (opcional):</strong> se optares por
-      entrar com a tua conta Google, recolhemos o teu <em>nome de exibição</em>,
-      <em>endereço de email</em> e <em>identificador de conta Google</em>, para
-      associar o teu progresso e mostrar o teu nome no ranking.</li>
+  <li>As rodas que crias, com os nomes das opções, as cores e os pesos.</li>
+  <li>O histórico das decisões: o que saiu, em que roda e quando.</li>
+  <li>As tuas preferências, como a vibração e o modo de apresentação da lista.</li>
+</ul>
+<p>Ficam numa base de dados local da aplicação. Podes apagar o histórico a qualquer momento nas Definições, e apagar tudo desinstalando a aplicação ou limpando os dados da aplicação nas definições do Android.</p>
+
+<h2>3. Cópia de segurança do Android</h2>
+<p>A aplicação permite que o Android inclua a sua base de dados na cópia de segurança automática do teu telemóvel. Essa cópia é feita pelo sistema operativo para a <strong>tua</strong> conta Google, não para nós, e serve para as tuas rodas e o teu histórico sobreviverem a uma mudança de telemóvel. Podes desligar as cópias de segurança nas definições do Android.</p>
+
+<h2>4. Localização</h2>
+<p>A Spinly só pede acesso à localização quando <strong>tu</strong> usas a funcionalidade de sugestões de sítios perto de ti, e nunca fora disso. Nesse momento:</p>
+<ul>
+  <li>A aplicação obtém a tua posição e envia as coordenadas à <strong>API Google Places</strong>, juntamente com os filtros que escolheste, para receber uma lista de restaurantes próximos.</li>
+  <li>A tua posição não é guardada nem enviada para mais lado nenhum.</li>
+  <li>Dos resultados, se adicionares um sítio à roda, ficam guardados no telemóvel o nome, a distância no momento da pesquisa, a avaliação, o nível de preço, o tipo de cozinha e o identificador do local no Google Maps.</li>
+</ul>
+<p>Podes recusar a permissão de localização. A aplicação funciona na mesma; apenas essa funcionalidade deixa de estar disponível.</p>
+
+<h2>5. Anúncios</h2>
+<p>A versão gratuita mostra anúncios fornecidos pela <strong>Google AdMob</strong>. Para os apresentar, a Google pode recolher e tratar dados do teu dispositivo, incluindo o identificador de publicidade do Android, o endereço IP e informação sobre a interação com os anúncios. A Google usa esses dados para escolher os anúncios e medir o seu desempenho.</p>
+<p>Se estiveres no Espaço Económico Europeu, no Reino Unido ou na Suíça, a aplicação pede-te consentimento antes de qualquer anúncio, através da plataforma de consentimento da própria Google. <strong>Podes mudar a tua escolha a qualquer momento</strong>, nas Definições da aplicação, em «Definições de anúncios».</p>
+<p>A versão Premium não mostra anúncios e não pede nada ao servidor de anúncios.</p>
+
+<h2>6. Com quem são partilhados os dados</h2>
+<p>Apenas com a Google, e apenas nos dois casos acima:</p>
+<ul>
+  <li><strong>Google Places</strong>, quando pedes sugestões de sítios perto de ti.</li>
+  <li><strong>Google AdMob</strong>, para mostrar anúncios na versão gratuita.</li>
+</ul>
+<p>O tratamento que a Google faz desses dados rege-se pela política de privacidade da Google, em <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+<p>Não vendemos, alugamos nem partilhamos os teus dados com mais ninguém, porque nem sequer os recebemos.</p>
+
+<h2>7. Exportar os teus dados</h2>
+<p>Nas Definições podes exportar o teu histórico para um ficheiro CSV e partilhá-lo com quem quiseres. Esse ficheiro é criado no teu telemóvel e só vai para onde tu o mandares.</p>
+
+<h2>8. Permissões que a aplicação pede, e porquê</h2>
+<ul>
+  <li><strong>Localização aproximada e precisa</strong> — só para as sugestões de sítios perto de ti, e só quando as usas.</li>
+  <li><strong>Vibração</strong> — para o toque a acompanhar a roda a girar. Pode ser desligado nas Definições.</li>
 </ul>
 
-<h3>1.2 Dados de jogo</h3>
-<ul>
-  <li>Melhor pontuação, nível, número de partidas e nome de exibição — guardados
-      na base de dados (Google Firebase Firestore) para o ranking global.</li>
-  <li>Conquistas e pontuações sincronizadas com o Google Play Games Services
-      (se tiveres sessão iniciada).</li>
-</ul>
+<h2>9. Crianças</h2>
+<p>A Spinly não se dirige a crianças com menos de 13 anos e não recolhe conscientemente dados de crianças.</p>
 
-<h3>1.3 Dados recolhidos automaticamente</h3>
-<ul>
-  <li><strong>Análise de utilização</strong> (Google Firebase Analytics):
-      eventos de jogo, tipo de dispositivo, sistema operativo e dados de uso
-      agregados.</li>
-  <li><strong>Publicidade</strong> (Google AdMob): identificador de publicidade
-      e dados de interação com anúncios, para mostrar anúncios recompensados.</li>
-</ul>
+<h2>10. Os teus direitos</h2>
+<p>Como os dados ficam no teu telemóvel e não temos cópia deles, controla-los diretamente: podes vê-los, alterá-los, exportá-los e apagá-los dentro da aplicação, ou apagar tudo removendo a aplicação. Para os dados tratados pela Google, os teus direitos são exercidos junto da Google, através da ligação na secção 6.</p>
 
-<h2>2. Como utilizamos a informação</h2>
-<ul>
-  <li>Guardar e sincronizar o teu progresso entre dispositivos.</li>
-  <li>Mostrar rankings e conquistas.</li>
-  <li>Apresentar anúncios recompensados (segunda chance no jogo).</li>
-  <li>Melhorar a App através de estatísticas de utilização agregadas.</li>
-</ul>
+<h2>11. Alterações a esta política</h2>
+<p>Se esta política mudar, a data no topo é atualizada. Alterações relevantes serão assinaladas dentro da aplicação.</p>
 
-<h2>3. Partilha de informação</h2>
-<p>Não vendemos os teus dados pessoais. A informação pode ser processada pelos
-seguintes serviços de terceiros, cada um com a sua própria política de
-privacidade:</p>
-<ul>
-  <li>Google Firebase (Authentication, Firestore, Analytics) —
-      <a href="https://firebase.google.com/support/privacy">Política do Firebase</a></li>
-  <li>Google AdMob —
-      <a href="https://policies.google.com/technologies/ads">Política de Anúncios da Google</a></li>
-  <li>Google Play Games Services —
-      <a href="https://policies.google.com/privacy">Política de Privacidade da Google</a></li>
-</ul>
-
-<h2>4. Retenção e eliminação de dados</h2>
-<p>Os dados são mantidos enquanto a tua conta estiver ativa. Podes:</p>
-<ul>
-  <li>Repor os dados locais em <em>Definições → Repor dados</em> dentro da App.</li>
-  <li>Solicitar a eliminação dos teus dados na nuvem (ranking, conta) enviando
-      um email para o contacto abaixo.</li>
-</ul>
-
-<h2>5. Crianças</h2>
-<p>A App não se destina a crianças com idade inferior a 13 anos e não recolhe
-intencionalmente dados de crianças.</p>
-
-<h2>6. Alterações a esta política</h2>
-<p>Podemos atualizar esta política periodicamente. A data de "última atualização"
-no topo reflete a versão em vigor.</p>
-
-<h2>7. Contacto</h2>
-<p>Para questões de privacidade ou pedidos de eliminação de dados:<br>
-<strong>pulsedgamesstore@gmail.com</strong></p>
-</section>
+<h2>12. Contacto</h2>
+<p><a href="mailto:pulsedgamesstore@gmail.com">pulsedgamesstore@gmail.com</a></p>
 
 <hr>
 
-<!-- ════════════════════════ ENGLISH ════════════════════════ -->
-<section id="en">
-<h1>Privacy Policy — Pulsed</h1>
-<p class="muted">Last updated: June 28, 2026</p>
+<h1 id="en" lang="en">Privacy Policy — Spinly</h1>
+<p class="lang-switch"><a href="#pt" lang="pt">Português</a></p>
+<p class="updated">Last updated: 11 September 2026</p>
 
-<p>This Privacy Policy describes how the <strong>Pulsed</strong> application
-("the App", "we") collects, uses and protects user information. By using the
-App, you agree to the practices described here.</p>
+<p>Spinly is an app that helps you decide by spinning a wheel of the options you write. This policy explains what data the app uses, where it stays, and who it is shared with.</p>
 
-<h2>1. Information we collect</h2>
+<p class="lead">In short, and in plain language: <strong>Spinly has no accounts, no server of ours, and collects or sends none of your data anywhere that belongs to us.</strong> Everything you write stays on your phone. The only things that leave the device are described below, and they all go directly to Google.</p>
 
-<h3>1.1 Account and identification</h3>
+<h2>1. Who is responsible</h2>
+<p>Spinly is developed and maintained by an individual developer. For any question about this policy or about your data, write to <a href="mailto:pulsedgamesstore@gmail.com">pulsedgamesstore@gmail.com</a>.</p>
+
+<h2>2. What stays on your phone</h2>
+<p>This data never leaves the device, except through the Android backup described in section 3:</p>
 <ul>
-  <li><strong>Guest sign-in:</strong> an anonymous identifier (Firebase Anonymous
-      Authentication) is created to save your progress. No personal data is
-      collected.</li>
-  <li><strong>Google sign-in (optional):</strong> if you choose to sign in with
-      your Google account, we collect your <em>display name</em>, <em>email
-      address</em> and <em>Google account identifier</em>, to associate your
-      progress and show your name on the leaderboard.</li>
+  <li>The wheels you create, with the option names, colours and weights.</li>
+  <li>Your decision history: what came up, on which wheel, and when.</li>
+  <li>Your preferences, such as vibration and the list display mode.</li>
+</ul>
+<p>It lives in a local database inside the app. You can clear the history at any time in Settings, and remove everything by uninstalling the app or clearing the app's data in the Android settings.</p>
+
+<h2>3. Android backup</h2>
+<p>The app allows Android to include its database in your phone's automatic backup. That backup is made by the operating system into <strong>your</strong> Google account, not ours, so your wheels and history survive a change of phone. You can turn backups off in the Android settings.</p>
+
+<h2>4. Location</h2>
+<p>Spinly only asks for location access when <strong>you</strong> use the nearby suggestions feature, and never otherwise. At that moment:</p>
+<ul>
+  <li>The app obtains your position and sends the coordinates to the <strong>Google Places API</strong>, together with the filters you chose, to receive a list of nearby restaurants.</li>
+  <li>Your position is not stored, and is not sent anywhere else.</li>
+  <li>If you add a place to a wheel, the phone stores its name, the distance at the time of the search, the rating, the price level, the cuisine type and the Google Maps place identifier.</li>
+</ul>
+<p>You can refuse the location permission. The app still works; only that feature becomes unavailable.</p>
+
+<h2>5. Ads</h2>
+<p>The free version shows ads served by <strong>Google AdMob</strong>. To serve them, Google may collect and process data from your device, including the Android advertising identifier, the IP address, and information about your interaction with the ads. Google uses that data to select ads and measure their performance.</p>
+<p>If you are in the European Economic Area, the United Kingdom or Switzerland, the app asks for your consent before any ad, through Google's own consent platform. <strong>You can change your choice at any time</strong>, in the app's Settings, under "Definições de anúncios".</p>
+<p>The Premium version shows no ads and requests nothing from the ad server.</p>
+
+<h2>6. Who data is shared with</h2>
+<p>Only with Google, and only in the two cases above:</p>
+<ul>
+  <li><strong>Google Places</strong>, when you ask for nearby suggestions.</li>
+  <li><strong>Google AdMob</strong>, to show ads in the free version.</li>
+</ul>
+<p>Google's processing of that data is governed by Google's privacy policy, at <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+<p>We do not sell, rent or share your data with anyone else, because we never receive it in the first place.</p>
+
+<h2>7. Exporting your data</h2>
+<p>In Settings you can export your history to a CSV file and share it with whoever you like. That file is created on your phone and goes only where you send it.</p>
+
+<h2>8. Permissions the app requests, and why</h2>
+<ul>
+  <li><strong>Approximate and precise location</strong> — only for nearby suggestions, and only while you use them.</li>
+  <li><strong>Vibration</strong> — for the tick that follows the spinning wheel. It can be turned off in Settings.</li>
 </ul>
 
-<h3>1.2 Game data</h3>
-<ul>
-  <li>Best score, level, number of games played and display name — stored in the
-      database (Google Firebase Firestore) for the global leaderboard.</li>
-  <li>Achievements and scores synced with Google Play Games Services (if signed
-      in).</li>
-</ul>
+<h2>9. Children</h2>
+<p>Spinly is not directed at children under 13 and does not knowingly collect data from children.</p>
 
-<h3>1.3 Automatically collected data</h3>
-<ul>
-  <li><strong>Usage analytics</strong> (Google Firebase Analytics): game events,
-      device type, operating system and aggregated usage data.</li>
-  <li><strong>Advertising</strong> (Google AdMob): advertising identifier and ad
-      interaction data, to serve rewarded ads.</li>
-</ul>
+<h2>10. Your rights</h2>
+<p>Because the data stays on your phone and we hold no copy of it, you control it directly: you can view, change, export and delete it inside the app, or remove everything by uninstalling. For data processed by Google, your rights are exercised with Google, through the link in section 6.</p>
 
-<h2>2. How we use the information</h2>
-<ul>
-  <li>Save and sync your progress across devices.</li>
-  <li>Display leaderboards and achievements.</li>
-  <li>Serve rewarded ads (in-game second chance).</li>
-  <li>Improve the App through aggregated usage statistics.</li>
-</ul>
+<h2>11. Changes to this policy</h2>
+<p>If this policy changes, the date at the top is updated. Significant changes will be signalled inside the app.</p>
 
-<h2>3. Information sharing</h2>
-<p>We do not sell your personal data. Information may be processed by the
-following third-party services, each with its own privacy policy:</p>
-<ul>
-  <li>Google Firebase (Authentication, Firestore, Analytics) —
-      <a href="https://firebase.google.com/support/privacy">Firebase Privacy</a></li>
-  <li>Google AdMob —
-      <a href="https://policies.google.com/technologies/ads">Google Ads Policy</a></li>
-  <li>Google Play Games Services —
-      <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
-</ul>
+<h2>12. Contact</h2>
+<p><a href="mailto:pulsedgamesstore@gmail.com">pulsedgamesstore@gmail.com</a></p>
 
-<h2>4. Data retention and deletion</h2>
-<p>Data is kept while your account is active. You can:</p>
-<ul>
-  <li>Reset local data via <em>Settings → Reset data</em> inside the App.</li>
-  <li>Request deletion of your cloud data (leaderboard, account) by emailing the
-      contact below.</li>
-</ul>
+<footer>Spinly · <a href="terms-of-service.html">Termos de Utilização / Terms of Service</a></footer>
 
-<h2>5. Children</h2>
-<p>The App is not directed at children under 13 and does not knowingly collect
-data from children.</p>
-
-<h2>6. Changes to this policy</h2>
-<p>We may update this policy from time to time. The "last updated" date at the
-top reflects the current version.</p>
-
-<h2>7. Contact</h2>
-<p>For privacy questions or data deletion requests:<br>
-<strong>pulsedgamesstore@gmail.com</strong></p>
-</section>
-
+</main>
 </body>
 </html>
